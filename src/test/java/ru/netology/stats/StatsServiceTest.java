@@ -69,6 +69,7 @@ public class StatsServiceTest {
         Assertions.assertEquals(expectedlowermiddlemount, actuallowermiddlemount);
 
     }
+
     @Test
     public void Shouldtheabovemiddlemount() {
         StatsService service = new StatsService();

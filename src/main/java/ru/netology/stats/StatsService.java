@@ -43,7 +43,7 @@ public class StatsService {
 
         int lowermonth = 0;
         for (int sale : sales) {
-            if(sale<averagesalesamount(sales)){
+            if (sale < averagesalesamount(sales)) {
                 lowermonth++;
             }
         }
@@ -54,7 +54,7 @@ public class StatsService {
 
         int highmonth = 0;
         for (int sale : sales) {
-            if(sale>averagesalesamount(sales)){
+            if (sale > averagesalesamount(sales)) {
                 highmonth++;
             }
         }
